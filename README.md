@@ -39,3 +39,6 @@ Laravelを動かすためのECSとAurora（PostgreSQL）を作成するテンプ
 - db_password_super_user：スーパーユーザーのパスワードです。
 - log_channel：Laravelの環境変数に影響する値です。
 - alb_domain：SSL証明書を取得しているドメインです。
+
+## その他
+- Route53でALBへの向け先設定を手動でする必要があるかもです。
